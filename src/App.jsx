@@ -1,14 +1,16 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
-import Header from "./components/Header/Header.jsx";
-import Footer from "./components/Footer/Footer.jsx";
+import Header from "./components/Blog/Header/Header.jsx";
+import Footer from "./components/Blog/Footer/Footer.jsx";
 
 // Import تمام صفحات
-import HomePage from "./pages/HomePage.jsx";
-import ArticlePage from "./pages/ArticlePage.jsx";
-import CategoryPage from "./pages/CategoryPage.jsx";
-import SearchResultsPage from "./pages/SearchResultsPage.jsx";
+import HomePage from "./pages/Blog/HomePage.jsx";
+import ArticlePage from "./pages/Blog/ArticlePage.jsx";
+import CategoryPage from "./pages/Blog/CategoryPage.jsx";
+import SearchResultsPage from "./pages/Blog/SearchResultsPage.jsx";
 import NotFoundPage from "./pages/NotFoundPage.jsx";
+import Paymentfailedpage from "./pages/payment/PaymentFailedPage/Paymentfailedpage.jsx";
+import PaymentSuccesspage  from "./pages/payment/PaymentFailedPage/PaymentSuccesspage.jsx";
 
 function App() {
   return (
@@ -31,6 +33,12 @@ function App() {
             
             {/* صفحه نتایج جستجو */}
             <Route path="/search" element={<SearchResultsPage />} />
+            
+            {/* payment-failed */}
+            <Route path="/payment-failed" element={<Paymentfailedpage />} />
+
+            {/* payment-success */}
+            <Route path="/payment-success" element={<PaymentSuccesspage/>}/>
             
             {/* صفحه 404 */}
             <Route path="*" element={<NotFoundPage />} />

@@ -1,14 +1,14 @@
 import React from "react";
 // Import کامپوننت‌ها
-import Header from "../components/Header/Header.jsx";
-import Title from "../components/TopSection/Title.jsx";
-import SearchBar from "../components/TopSection/SearchBar.jsx";
-import BlogSection from "../components/BlogContent/BlogSection.jsx";
-import TagsSection from "../components/BlogContent/TagsSection.jsx";
-import PopularArticles from "../components/Sidebar/PopularArticles.jsx";
-import CategorisBox from "../components/Sidebar/CategorisBox.jsx";
-import CommentsForm from "../components/FeedbackForm/CommentsForm.jsx";
-import Testimonials from "../components/CustomerReviews/Testimonials.jsx";
+import Header from "../../components/Blog/Header/Header.jsx";
+import Title from "../../components/Blog/TopSection/Title.jsx";
+import SearchBar from "../../components/Blog/TopSection/SearchBar.jsx";
+import BlogSection from "../../components/Blog/BlogContent/BlogSection.jsx";
+import TagsSection from "../../components/Blog/BlogContent/TagsSection.jsx";
+import PopularArticles from "../../components/Blog/Sidebar/PopularArticles.jsx";
+import CategorisBox from "../../components/Blog/Sidebar/CategorisBox.jsx";
+import CommentsForm from "../../components/Blog/FeedbackForm/CommentsForm.jsx";
+import Testimonials from "../../components/Blog/CustomerReviews/Testimonials.jsx";
 
 const HomePage = () => (
   <div className="text-black bg-white font-iranSans" dir="rtl">
