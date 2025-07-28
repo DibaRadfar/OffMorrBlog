@@ -1,6 +1,7 @@
 const Searchbar = () => {
     return(
-        <div className="w-full max-w-[1376px] h-[79px] bg-[#F5F5F5] rounded-[50px] px-[26px] py-[20px] flex items-center justify-center gap-[10px] mb-[80px] self-center">
+        <div className="w-full max-w-[86] h-[4.938rem] bg-[#F5F5F5] rounded-[3.125rem]
+         px-[1.625rem] py-[1rem] flex items-center justify-center gap-[0.625rem] mb-[1.688rem] self-center">
         <input
           type="text"
           className="w-full text-right bg-transparent outline-none"

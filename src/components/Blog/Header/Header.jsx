@@ -1,22 +1,22 @@
 import React from 'react';
 import logo from '../../../assets/images/logo.png';
-import userProfile from '../../../assets/images/Ellipse 47.png';
+import userProfile from '../../../assets/images/userprofile.png';
 
 const Header = () => {
   return (
-    <header className="bg-[#00395D] h-[90px] w-full mx-auto shadow-md flex justify-between items-center px-4">
+    <header className="bg-[#00395D] h-[5.625rem] w-full mx-auto shadow-md flex justify-between items-center px-4">
 
       <div className="logo">
         <img
           src={logo}
           alt="Logo"
-          className="h-[39px] w-[253px] p-[10px]"
+          className="h-[2.438rem] w-[15.813rem] p-[0.625rem]"
         />
       </div>
 
       <div className="flex items-center gap-x-4">
 
-        <div className="flex bg-[#5C8CAA] items-center border-2 border-[#5C8CAA] rounded-[12px] p-2 space-x-2 space-x-reverse">
+        <div className="flex bg-[#5C8CAA] items-center border-2 border-[#5C8CAA] rounded-[0.75rem] p-2 space-x-2 space-x-reverse">
           <img
             src={userProfile}
             alt="userProfile"

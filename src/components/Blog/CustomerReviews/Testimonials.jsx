@@ -73,13 +73,13 @@ const Testimonials = () => {
   const handleShowMore = () => setVisibleCount(testimonials.length);
 
   return (
-    <section className="py-12 bg-gray-50 rtl" dir="rtl" style={{ marginLeft: "auto" }}>
-      <h2 className="text-[22px] mb-[17px]">دیدگاه ها</h2>
-      <div className="w-full px-4 space-y-8" style={{ maxWidth: 970 }}>
+    <section className="py-2 bg-gray-50 rtl" dir="rtl" style={{ marginLeft: "auto" }}>
+      <p className="text-[22px] mb-[1.063rem] font-extrabold pb-[1.063rem]">دیدگاه ها</p>
+      <div className="w-full px-4 space-y-8" style={{ maxWidth: "60.625rem" }}>
         {testimonials.slice(0, visibleCount).map((item) => (
           <div key={item.id} className="pb-6 border-b">
             <div className="relative flex items-center justify-start gap-6" dir="rtl">
-
+   
               <img
                 src={item.avatar}
                 alt={item.name}
@@ -88,12 +88,10 @@ const Testimonials = () => {
 
 
               <div
-                className="flex items-center gap-[29px]"
+                className="flex items-center gap-[1.813rem]"
                 style={{
-                  width: 383,
-                  height: 30,
-                  
-                  
+                  width:"23.938rem",
+                  height: "1.875rem",
                 }}
               >
                 <span className="text-sm font-semibold">{item.name}</span>
@@ -104,10 +102,10 @@ const Testimonials = () => {
               <div
                 className="text-white text-sm rounded-full bg-[#00395D]"
                 style={{
-                  padding: "4px 17px 8px",
-                  minWidth: 55,
-                  height: 32,
-                  lineHeight: "20px",
+                  padding: "0.25rem 1.063rem 0.5rem",
+                  minWidth: "3.438rem",
+                  height: "2rem",
+                  lineHeight: "1.25rem",
                   textAlign: "center",
                 }}
               >

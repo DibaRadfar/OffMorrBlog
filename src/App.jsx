@@ -20,7 +20,7 @@ function App() {
         <Header />
         
         {/* محتوای اصلی */}
-        <main className="min-h-[calc(100vh-160px)] bg-gray-50 p-4">
+        <main className="min-h-[calc(100vh-10rem)] bg-gray-50 p-4">
           <Routes>
             {/* صفحه اصلی */}
             <Route path="/" element={<HomePage />} />
