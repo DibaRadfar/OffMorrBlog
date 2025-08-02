@@ -5,7 +5,7 @@ import { FaPhone } from "react-icons/fa";
 
 const PaymentFailed = () => {
   return (
-    <div className="flex items-center justify-center mt-[10.25rem] mb-[10.188rem]">
+    <div className="flex items-center justify-center mt-[10.25rem] mb-[10.188rem] w-full overflow-x-hidden">
       <div className="bg-[#F5F5F5] rounded-[0.625rem] w-[28.375rem] h-[54.375rem] px-[30.813] flex flex-col">
         <div className="failedmessage bg-[#992123] w-[28.375rem] h-[15.375rem] rounded-tr-[0.625rem] rounded-tl-[0.625rem] place-content-center place-items-center">
           <HiOutlineXCircle className="w-[6.125rem] h-[6.125rem] text-[#FFFFFF] text-center items-center justify-center mb-[0.625rem] mt-[2rem]" />
@@ -81,7 +81,7 @@ const PaymentFailed = () => {
           type="button"
           value="بازگشت به سبد خرید"
           className="bg-[#AF0A0D] border-[#AF0A0D] w-[26.625rem] h-[3.688rem] rounded-[10px] 
-          mt-[1.75rem] mx-[0.875rem] text-[25px] text-[#FFFFFF] text-center font-bold cursor-pointer"
+          mt-[1.75rem] mx-[0.875rem] text-[25px] text-[#FFFFFF] text-center font-bold cursor-pointer hover:bg-[#f83236] "
         />
 
         <div className="flex flex-col items-center justify-center mt-6 mb-[0.625rem] help">

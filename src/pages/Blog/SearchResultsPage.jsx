@@ -13,7 +13,7 @@ const SearchResultsPage = () => {
   ];
 
   return (
-    <div className="max-w-4xl px-4 py-8 mx-auto">
+    <div className="max-w-full px-4 py-8 mx-auto">
       <h1 className="mb-6 text-2xl font-bold">نتایج جستجو برای: {query}</h1>
       
       {searchResults.length > 0 ? (

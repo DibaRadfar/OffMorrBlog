@@ -4,7 +4,7 @@ import React from "react";
 
 const PopularArticles = () => {
     return(
-    <div className="border-[0.125rem] border-[#00395D] rounded-[0.313rem] pr-[1.625rem] pl-[2rem] w-[27.813rem] h-[23.313rem] ">
+    <div className="border-[0.125rem] border-[#00395D] rounded-[0.313rem] pr-[1.625rem] pl-[2rem] w-full h-[23.313rem] ">
 
       <h2 className="text-xl font-black text-right text-[#283944] mt-[1.063rem] ">مقالات پرطرفدار</h2>
 

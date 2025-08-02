@@ -5,7 +5,7 @@ import { FaPhone } from "react-icons/fa";
 
 const PaymentSuccess = () => {
   return (
-    <div className="flex items-center justify-center mt-[10.25rem] mb-[10.188rem]">
+    <div className="flex items-center justify-center mt-[10.25rem] mb-[10.188rem] overflow-x-hidden w-full">
       <div className="bg-[#F5F5F5] rounded-[0.625rem] w-[28.375rem] h-[54.375rem] px-[30.813] flex flex-col">
         <div className="failedmessage bg-[#2F8B2F] w-[28.375rem] h-[15.375rem] rounded-tr-[0.625rem] rounded-tl-[0.625rem] place-content-center place-items-center">
           <FaRegCheckCircle className="w-[6.125rem] h-[6.125rem] text-[#FFFFFF] text-center items-center justify-center mb-[0.625rem] mt-[2.5rem]" />
@@ -70,14 +70,14 @@ const PaymentSuccess = () => {
         <input  
           type="button"
           value="پیگیری سفارش"
-          className="bg-[#2F8B2F] border-[#2F8B2F] w-[26.625rem] h-[3.688rem] rounded-[10px] 
-           mx-[0.875rem] text-[18px] text-[#FFFFFF] text-center font-bold cursor-pointer mt-[2.188rem] mb-[3.563rem]"
+          className="bg-[#2F8B2F] border-[#2f8b2f] w-[26.625rem] h-[3.688rem] rounded-[10px] 
+           mx-[0.875rem] text-[18px] text-[#FFFFFF] text-center font-bold cursor-pointer mt-[2.188rem] mb-[3.563rem] hover:bg-[#4acf4a]"
         />
         <input  
           type="button"
           value="بازشگت به صفحه اصلی"
           className="bg-[#FFFFFF] border-[#2F8B2F] border-[0.125rem] w-[26.625rem] h-[3.688rem] rounded-[10px] 
-           mx-[0.875rem] text-[18px] text-[#283944] text-center font-bold cursor-pointer mt-[2.188rem] mb-[3.563rem]"
+           mx-[0.875rem] text-[18px] text-[#283944] text-center font-bold cursor-pointer mt-[2.188rem] mb-[3.563rem] hover:bg-gray-100"
         />
         </div>
 

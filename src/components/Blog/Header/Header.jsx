@@ -4,7 +4,7 @@ import userProfile from '../../../assets/images/userprofile.png';
 
 const Header = () => {
   return (
-    <header className="bg-[#00395D] h-[5.625rem] w-full mx-auto shadow-md flex justify-between items-center px-4">
+    <header className="bg-[#00395D] h-[5.625rem] w-full mx-auto shadow-md flex  flex-row justify-between items-center px-4">
 
       <div className="logo">
         <img

@@ -2,7 +2,7 @@ import React from "react";
 
 const CategorisBox = () => {
   return (
-    <div className="border-[0.125rem] border-[#00395D] rounded-[0.313rem] pr-[2rem] pl-[2rem] pt-[2rem] w-[27.813rem] h-[23.313rem] ">
+    <div className="border-[0.125rem] border-[#00395D] rounded-[0.313rem] pr-[2rem] pl-[2rem] pt-[2rem] w-full h-[23.313rem] mt-[1.688rem] ">
 
       <p className="mb-2 text-xl text-right text-[#283944] font-black">دسته‌بندی</p>
 
